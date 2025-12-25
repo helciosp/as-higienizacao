@@ -1,3 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
-
 @import "tailwindcss";
+
+@theme {
+  /* Configuração das suas Cores Personalizadas */
+  --color-brand-orange: #FF9900;
+  --color-brand-blue: #0091FF;
+  --color-brand-dark: #3979AA;
+  
+  /* Configuração da Fonte */
+  --font-sans: "Poppins", sans-serif;
+}
